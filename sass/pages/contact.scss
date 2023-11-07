@@ -1,0 +1,23 @@
+.contact {
+  &__card {
+    display: flex;
+    width: 50%;
+    min-width: 15rem;
+    align-items: center;
+    max-width: 25rem;
+    &Layout {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      @media (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+    & img {
+      margin: 1rem;
+      width: 15%;
+    }
+  }
+}

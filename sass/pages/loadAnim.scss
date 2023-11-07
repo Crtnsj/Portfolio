@@ -1,0 +1,75 @@
+.loadAnim {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  animation: loadAnim 1s ease-in-out 2.85s forwards;
+  z-index: 3;
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    margin: 0 1rem 0 1rem;
+    & span {
+      min-width: 5px;
+      animation: letterAppear 0.25s ease-in-out both;
+      @media (min-width: 555px) {
+        min-width: 10px;
+      }
+      @media (min-width: 1000px) {
+        min-width: 15px;
+      }
+    }
+    @media (min-width: 375px) {
+      font-size: 1.25rem;
+    }
+    @media (min-width: 425px) {
+      font-size: 1.7rem;
+    }
+    @media (min-width: 555px) {
+      font-size: 2.25rem;
+    }
+    @media (min-width: 839px) {
+      font-size: 3.5rem;
+    }
+    @media (min-width: 1000px) {
+      font-size: 4rem;
+    }
+  }
+  &__name {
+    animation: nameAppear 0.5s ease-in-out both;
+    animation-delay: 1.5s;
+    font-size: 0.75rem;
+    margin: 0.5rem;
+    @media (min-width: 375px) {
+      font-size: 1rem;
+    }
+    @media (min-width: 425px) {
+      font-size: 1.2rem;
+    }
+    @media (min-width: 555px) {
+      font-size: 1.7rem;
+    }
+    @media (min-width: 839px) {
+      font-size: 2.25rem;
+    }
+    @media (min-width: 1000px) {
+      font-size: 2.75rem;
+    }
+  }
+  @for $i from 1 through 50 {
+    .loadAnim__text span:nth-child(#{$i}) {
+      animation-delay: (0.5s + $i * 0.04s);
+    }
+  }
+  &__other {
+    animation: loadAnim__other 0.1s 2.5s both;
+  }
+}

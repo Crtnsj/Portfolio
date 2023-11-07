@@ -1,0 +1,46 @@
+.rating {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  min-width: 5rem;
+  max-width: 15rem;
+  margin: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+.logo {
+  display: flex;
+  min-width: 5rem;
+  max-width: 15rem;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-size: 7vw;
+  font-weight: 600;
+
+  &__react {
+    width: 100%;
+    background-image: url("../src/assets/logo_react.png");
+  }
+  &__html {
+    width: 100%;
+    background-image: url("../src/assets/logo_html.png");
+  }
+  &__css {
+    width: 100%;
+    background-image: url("../src/assets/logo_css.png");
+  }
+  &__scss {
+    width: 100%;
+    background-image: url("../src/assets/logo_scss.png");
+  }
+}
