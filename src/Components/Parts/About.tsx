@@ -1,4 +1,5 @@
 import Timeline from "../Timeline";
+import CV from "../../assets/CV_Corentin_Sanjuan.pdf";
 
 const About = () => {
   return (
@@ -6,22 +7,26 @@ const About = () => {
       <Timeline number={1} />
       <div className="about__layout">
         <div className="about__text--layout">
-          <h2>Bonjour, je m'appelle Corentin SAN JUAN</h2>
+          <h2>Mon profil</h2>
           <p className="about__text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
-            quas. Unde ex autem officia numquam totam nihil facere illo
-            repellendus fugiat, hic dolore provident cupiditate debitis
-            asperiores nulla, voluptate voluptatum. <br />
+            Bonjour, je m'appelle <strong>Corentin San Juan</strong>,
+            <br />
+            <br />
+            Je suis étudiant en deuxieme année de
+            <strong> BTS SIO</strong>, (<strong>S</strong>ervices{" "}
+            <strong>I</strong>nformatiques aux
+            <strong> O</strong>rganisations) à l'École ISITECH de Lyon, option
+            SLAM (<strong>S</strong>olutions <strong> L</strong>ogicielles et
+            <strong> A</strong>pplications
+            <strong> M</strong>étier).
+            <br />
             <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Enim sed iusto expedita consequatur explicabo iure. Earum provident
             voluptatum eaque sint dolorum architecto, saepe molestiae, quis
             magnam dolores, quidem ratione! Tenetur.
           </p>
           <button className="cvButton">
-            <a
-              href="/Portfolio/src/assets/CV_Corentin_Sanjuan.pdf"
-              target="_blank"
-            >
+            <a href={CV} target="_blank">
               Télécharger mon CV
             </a>
           </button>
