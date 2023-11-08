@@ -6,7 +6,7 @@ const About = () => {
       <Timeline number={1} />
       <div className="about__layout">
         <div className="about__text--layout">
-          <h2>Lorem Ipsum</h2>
+          <h2>Bonjour, je m'appelle Corentin SAN JUAN</h2>
           <p className="about__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
             quas. Unde ex autem officia numquam totam nihil facere illo
@@ -18,7 +18,12 @@ const About = () => {
             magnam dolores, quidem ratione! Tenetur.
           </p>
           <button className="cvButton">
-            <p>Télécharger mon CV</p>
+            <a
+              href="/Portfolio/src/assets/CV_Corentin_Sanjuan.pdf"
+              target="_blank"
+            >
+              Télécharger mon CV
+            </a>
           </button>
         </div>
         <div className="about__pic"></div>

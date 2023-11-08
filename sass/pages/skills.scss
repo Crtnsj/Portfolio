@@ -18,14 +18,20 @@
 .logo {
   display: flex;
   min-width: 5rem;
-  max-width: 15rem;
+  max-width: 10rem;
   aspect-ratio: 1/1;
   background-position: center;
   background-size: cover;
   justify-content: center;
   align-items: center;
-  font-size: 7vw;
+  font-size: 12vw;
   font-weight: 600;
+  @media (min-width: 425px) {
+    font-size: 9vw;
+  }
+  @media (min-width: 768px) {
+    font-size: 6vw;
+  }
 
   &__react {
     width: 100%;

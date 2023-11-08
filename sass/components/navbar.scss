@@ -56,9 +56,9 @@
     transition: transform 0.35s ease-out;
     @media (min-width: 768px) {
       width: 25.75%;
-    }
-    + .menuBurger {
-      right: 27px;
+      + .menuBurger {
+        right: 27px;
+      }
     }
 
     + .menuBurger .burger-bar::before {
