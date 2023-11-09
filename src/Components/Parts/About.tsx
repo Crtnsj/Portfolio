@@ -13,12 +13,9 @@ const About = () => {
             <br />
             <br />
             Je suis étudiant en deuxieme année de
-            <strong> BTS SIO</strong>, (<strong>S</strong>ervices{" "}
-            <strong>I</strong>nformatiques aux
-            <strong> O</strong>rganisations) à l'École ISITECH de Lyon, option
-            SLAM (<strong>S</strong>olutions <strong> L</strong>ogicielles et
-            <strong> A</strong>pplications
-            <strong> M</strong>étier).
+            <strong> BTS SIO</strong>, (Services Informatiques aux
+            Organisations) à l'École ISITECH de Lyon, option SLAM (Solutions
+            Logicielles et Applications Métier).
             <br />
             <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Enim sed iusto expedita consequatur explicabo iure. Earum provident
