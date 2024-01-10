@@ -20,6 +20,7 @@
     background-color: #ffffff;
     padding: 0.25rem;
     border-radius: 0.25rem;
+    border: none;
     @media (min-width: 425px) {
       aspect-ratio: 1/1;
       margin: 0.5rem;
@@ -31,6 +32,9 @@
       border-radius: 1rem;
       max-width: 28rem;
       min-width: 17rem;
+    }
+    & p{
+      text-align: justify;
     }
   }
   &__arrow {
@@ -69,6 +73,7 @@
       justify-content: center;
       border-radius: 1rem;
       box-shadow: 0 0 10px #000;
+      border:none;
     }
   }
 }
@@ -166,4 +171,16 @@
   &2 {
     z-index: 2;
   }
+}
+.buttonsLayout{
+  display: flex;
+  gap: .25rem;
+}
+.buttonSource{
+display: block;
+background-color: #AAE1FF ;
+width: 40%;
+border-radius: 999px;
+color:#000;
+text-decoration: none;
 }

@@ -1,6 +1,7 @@
 import Timeline from "../Timeline";
 import CV from "../../assets/CV_Corentin_Sanjuan.pdf";
 
+
 const About = () => {
   return (
     <div className="about parts__layout" id="aboutPart">
@@ -22,11 +23,19 @@ const About = () => {
             voluptatum eaque sint dolorum architecto, saepe molestiae, quis
             magnam dolores, quidem ratione! Tenetur.
           </p>
+          <div>
           <button className="cvButton">
             <a href={CV} target="_blank">
               Télécharger mon CV
             </a>
+
           </button>
+          <button className="cvButton">
+            <a href={CV} target="_blank">
+              Ma fiche de compétence
+            </a>
+          </button>
+          </div>
         </div>
         <div className="about__pic"></div>
       </div>

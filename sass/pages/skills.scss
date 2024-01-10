@@ -1,12 +1,21 @@
 .rating {
+  position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  @media (min-width:425px) {
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+  @media (min-width:500px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+  }
 }
 .skill {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 70%;
   min-width: 5rem;
   max-width: 15rem;
   margin: 0.5rem;
@@ -14,6 +23,7 @@
   align-items: center;
   justify-self: center;
   aspect-ratio: 1/1;
+  gap:.25rem;
 }
 .logo {
   display: flex;
@@ -26,18 +36,6 @@
   align-items: center;
   font-size: 12vw;
   font-weight: 600;
-  & span {
-    font-size: 2rem;
-    position: absolute;
-    top: 21%;
-    right: 31%;
-  }
-  @media (min-width: 425px) {
-    font-size: 9vw;
-  }
-  @media (min-width: 768px) {
-    font-size: 6vw;
-  }
 
   &__react {
     width: 100%;
@@ -68,8 +66,38 @@
     background-image: url("../src/assets/logo_powershell.png");
   }
 }
-.complementaryNote {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
+.progressBar{
+  background-color: black;
+  width: 80%;
+  height: 1rem;
+  padding: 2px;
+  border-radius: 999px;
+  &--react::after{
+    background-color: #00DCFF;
+  }
+&--html::after{
+  background-color: #F73E00;
+}
+&--css::after{
+  background-color: #0277BD;
+}&--scss::after{
+  background-color: #DB5D9C;
+}&--javascript::after{
+  background-color: #DCB900;
+}
+&--java::after{
+  background-color: #EF4431;
+}
+&--powershell::after{
+  background-color: #027FCF
+}
+  
+&::after{
+  content:"";
+  display: block;
+  width: 20%;
+  height: 100%;
+  border-radius: 999px;
+  }
+  
 }
