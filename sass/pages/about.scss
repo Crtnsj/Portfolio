@@ -45,18 +45,23 @@
   }
 }
 .cvButton {
-  max-width: 12rem;
+  max-width: 13rem;
   padding: 1rem;
+  margin: 0.5rem;
   font-weight: bold;
   border-radius: 9999px;
   border: none;
   position: relative;
   overflow: hidden;
   z-index: 0;
+
   & a {
+    
     text-decoration: none;
     color: #000;
+    white-space: nowrap;
   }
+  
   & a::after {
     content: "Télécharger mon CV";
     position: absolute;
@@ -69,6 +74,10 @@
     opacity: 0;
     padding: 1rem;
     border-radius: 9999px;
+
+  }
+  &.tableauCompetence a::after{
+    content:"Ma fiche de compétence"
   }
   &::after {
     content: "";
@@ -92,4 +101,11 @@
       }
     }
   }
+}
+.experiencePro{
+  border-top:#000 solid 2px;
+  padding: 2vw 4vw 0 4vw;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
 }
