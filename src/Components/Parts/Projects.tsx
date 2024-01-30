@@ -28,32 +28,18 @@ const Projects = () => {
       </div>
       <div className="projects">
         <Project__card type="Badg-Heure" />
-        <img className="projects__arrow" src="../src/assets/line1.svg" />
-        <img
-          className="projects__arrow projects__arrow--2"
-          src="../src/assets/line1.svg"
-        />
-        <Project__card type="GestionB" />
+        <Project__card type="GeStionB" />
         <Project__card type="Other" />
       </div>
 
       <div className="carousel">
-        <button
-          className={`card__1 ${handleIndex(1)}`}
-          onClick={() => handleClickCard(1)}
-        >
-          <Project__card type="GestionB" />
+        <button className={`card__1 ${handleIndex(1)}`} onClick={() => handleClickCard(1)}>
+          <Project__card type="GeStionB" />
         </button>
-        <button
-          className={`card__2 ${handleIndex(2)}`}
-          onClick={() => handleClickCard(2)}
-        >
+        <button className={`card__2 ${handleIndex(2)}`} onClick={() => handleClickCard(2)}>
           <Project__card type="Badg-Heure" />
         </button>
-        <button
-          className={`card__3 ${handleIndex(3)}`}
-          onClick={() => handleClickCard(3)}
-        >
+        <button className={`card__3 ${handleIndex(3)}`} onClick={() => handleClickCard(3)}>
           <Project__card type="Other" />
         </button>
       </div>

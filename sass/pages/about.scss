@@ -56,12 +56,11 @@
   z-index: 0;
 
   & a {
-    
     text-decoration: none;
     color: #000;
     white-space: nowrap;
   }
-  
+
   & a::after {
     content: "Télécharger mon CV";
     position: absolute;
@@ -74,10 +73,9 @@
     opacity: 0;
     padding: 1rem;
     border-radius: 9999px;
-
   }
-  &.tableauCompetence a::after{
-    content:"Ma fiche de compétence"
+  &.tableauCompetence a::after {
+    content: "Ma fiche de compétence";
   }
   &::after {
     content: "";
@@ -102,10 +100,40 @@
     }
   }
 }
-.experiencePro{
-  border-top:#000 solid 2px;
+.experiencePro {
+  border-top: #000 solid 2px;
   padding: 2vw 4vw 0 4vw;
   display: flex;
   flex-direction: column;
-  gap:2rem;
+  gap: 2rem;
+  & div {
+    display: flex;
+
+    & div.content_exp {
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 1rem;
+    }
+    & div.logo_exp {
+      display: none;
+      @media (min-width: 768px) {
+        display: block;
+        width: 20%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        aspect-ratio: 1/1;
+      }
+    }
+  }
+}
+
+.logo_gbh {
+  background-image: url("../src/assets/logo_gbh.png");
+}
+.logo_acg {
+  background-image: url("../src/assets/logo_acg.png");
+}
+.logo_pref {
+  background-image: url("../src/assets/logo_pref.png");
 }
