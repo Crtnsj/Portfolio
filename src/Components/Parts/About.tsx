@@ -14,12 +14,13 @@ const About = () => {
             <br />
             <br />
             Je suis étudiant en deuxieme année de
-            <strong> BTS SIO</strong>, (Services Informatiques aux Organisations) à l'École ISITECH de Lyon, option SLAM (Solutions Logicielles et Applications Métier).
+            <strong> BTS SIO</strong>, (Services Informatiques aux Organisations) à l'École ISITECH de Lyon, option SLAM (Solutions
+            Logicielles et Applications Métier).
             <br />
-            <br /> Actuellement toujours en études je vous presente par le biais de mon portfolio mes experience professionnelles et mes différents projets réalisés au cours de mes deux années de BTS
-            SIO option SLAM
+            <br /> Actuellement toujours en études je vous presente par le biais de mon portfolio mes experience professionnelles et mes
+            différents projets réalisés au cours de mes deux années de BTS SIO option SLAM
           </p>
-          <div>
+          <div className="cvButton__layout">
             <button className="cvButton">
               <a href={CV} target="_blank">
                 Télécharger mon CV
@@ -34,7 +35,7 @@ const About = () => {
         </div>
         <div className="about__pic"></div>
       </div>
-      <div></div>
+
       <div className="experiencePro">
         <h2>Mes expériences professionnelles</h2>
         <div>

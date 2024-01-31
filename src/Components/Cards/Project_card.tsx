@@ -50,7 +50,7 @@ const Project__card = (props: Props) => {
             textAlign: "center",
           }}
         >
-          <h2>En cours de développement</h2>
+          <h2>Projet en cours de développement</h2>
           <img src={comingSoon} alt="" />
         </div>
       );
