@@ -6,46 +6,44 @@ const Skills = () => {
       <Timeline number={2} />
       <div className="rating">
         <div className="skill">
-          <div className="logo logo__react">
-          </div>
+          <div className="logo logo__react"></div>
           <div className="progressBar progressBar--react"></div>
-          <p>React</p>
+          <p>React: 2/5</p>
         </div>
         <div className="skill">
-          <div className="logo logo__html">
-          </div>
+          <div className="logo logo__html"></div>
           <div className="progressBar progressBar--html"></div>
-          <p>React</p>
+          <p>HTML: 4/5</p>
         </div>
         <div className="skill">
-          <div className="logo logo__css">
-          </div>
+          <div className="logo logo__css"></div>
           <div className="progressBar progressBar--css"></div>
-          <p>React</p>
+          <p>CSS: 3/5</p>
         </div>
         <div className="skill">
-          <div className="logo logo__scss">
-          </div>
+          <div className="logo logo__scss"></div>
           <div className="progressBar progressBar--scss"></div>
-          <p>React</p>
+          <p>SASS: 3/5</p>
         </div>
         <div className="skill">
-          <div className="logo logo__javascript">
-          </div>
+          <div className="logo logo__javascript"></div>
           <div className="progressBar progressBar--javascript"></div>
-          <p>React</p>
+          <p>JavaScript: 2/5</p>
         </div>
         <div className="skill">
-          <div className="logo logo__java">
-          </div>
+          <div className="logo logo__java"></div>
           <div className="progressBar progressBar--java"></div>
-          <p>React</p>
+          <p>Java: 1/5</p>
         </div>
         <div className="skill">
-          <div className="logo logo__powershell">
-          </div>
+          <div className="logo logo__powershell"></div>
           <div className="progressBar progressBar--powershell"></div>
-          <p>React</p>
+          <p>Powershell: 2/5</p>
+        </div>
+        <div className="skill">
+          <div className="logo logo__c-sharp"></div>
+          <div className="progressBar progressBar--c-sharp"></div>
+          <p>C#: 3/5</p>
         </div>
       </div>
     </div>

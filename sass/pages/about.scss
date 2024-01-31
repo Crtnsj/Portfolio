@@ -37,10 +37,11 @@
       min-width: 11rem;
       max-width: 30rem;
       aspect-ratio: 1/1;
-      background-image: url("../src/assets/self_pic.jpg");
+      background-image: url("../src/assets/self_pic.png");
       background-position: 50% 25%;
       background-size: cover;
       border-radius: 9999px;
+      margin-bottom: 2rem;
     }
   }
 }
@@ -112,13 +113,14 @@
     & div.content_exp {
       flex-direction: column;
       justify-content: center;
-      margin-left: 1rem;
+      margin-left: 3rem;
     }
     & div.logo_exp {
       display: none;
       @media (min-width: 768px) {
         display: block;
         width: 20%;
+        max-width: 13rem;
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;

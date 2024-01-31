@@ -27,21 +27,25 @@ const Projects = () => {
         <Timeline number={3} />
       </div>
       <div className="projects">
+        <h2>Projets réalisés à l'école</h2>
         <Project__card type="Badg-Heure" />
         <Project__card type="GeStionB" />
         <Project__card type="Other" />
       </div>
 
-      <div className="carousel">
-        <button className={`card__1 ${handleIndex(1)}`} onClick={() => handleClickCard(1)}>
-          <Project__card type="GeStionB" />
-        </button>
-        <button className={`card__2 ${handleIndex(2)}`} onClick={() => handleClickCard(2)}>
-          <Project__card type="Badg-Heure" />
-        </button>
-        <button className={`card__3 ${handleIndex(3)}`} onClick={() => handleClickCard(3)}>
-          <Project__card type="Other" />
-        </button>
+      <div className="projects__largeScreen">
+        <h2>Projets réalisés à l'école</h2>
+        <div className="carousel">
+          <button className={`card__1 ${handleIndex(1)} GeStionB`} onClick={() => handleClickCard(1)}>
+            <Project__card type="GeStionB" />
+          </button>
+          <button className={`card__2 ${handleIndex(2)} Badg-Heure`} onClick={() => handleClickCard(2)}>
+            <Project__card type="Badg-Heure" />
+          </button>
+          <button className={`card__3 ${handleIndex(3)} Other`} onClick={() => handleClickCard(3)}>
+            <Project__card type="Other" />
+          </button>
+        </div>
       </div>
     </div>
   );
