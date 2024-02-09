@@ -31,6 +31,8 @@ const Projects = () => {
         <Project__card type="Badg-Heure" />
         <Project__card type="GeStionB" />
         <Project__card type="Other" />
+        <h2>Projets réalisés en entreprise</h2>
+        <Project__card type="GLPI-GBH" />
       </div>
 
       <div className="projects__largeScreen">
@@ -46,6 +48,8 @@ const Projects = () => {
             <Project__card type="Other" />
           </button>
         </div>
+        <h2>Projets réalisés en entreprise</h2>
+        <Project__card type="GLPI-GBH" />
       </div>
     </div>
   );

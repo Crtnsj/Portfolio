@@ -2,6 +2,8 @@ type Props = {
   type: String;
 };
 import Badgheure_rapport from "../../assets/Rapport_SANJUAN_BADG-HEURE.pdf";
+import GLPIGBH_rapport from "../../assets/Rapport_GLPI_GBH_censured.pdf";
+import GeStionB_rapport from "../../assets/Rapport_GeStionB.pdf";
 import comingSoon from "../../assets/comingSoon.gif";
 
 const Project__card = (props: Props) => {
@@ -54,6 +56,16 @@ const Project__card = (props: Props) => {
           <img src={comingSoon} alt="" />
         </div>
       );
+    } else if (type === "GLPI-GBH") {
+      return (
+        <p style={{ color: "#fff" }}>
+          Ce projet à pour but de permettre au pôle informatique de gerer le parc informatique. Ce projet n'est cependant pas un serveur
+          GLPI lambda, j'ai apporté une personnalisation complete du logiciel. <br />
+          <br />
+          J'ai "rétro-ingénierer" le programme open-source de GLPI afin d'apporter les fonctionnalité souhaitée et les modifications
+          estetiques nécéssaires
+        </p>
+      );
     }
   };
   return (
@@ -78,7 +90,14 @@ const Project__card = (props: Props) => {
           <a target="_blank" href="https://github.com/Crtnsj/GeStionB" className="buttonSource">
             Code source
           </a>
-          <a target="_blank" href={Badgheure_rapport} className="buttonSource">
+          <a target="_blank" href={GeStionB_rapport} className="buttonSource">
+            Rapport
+          </a>
+        </div>
+      ) : null}
+      {props.type === "GLPI-GBH" ? (
+        <div style={{ flexDirection: "column" }} className="buttonsLayout">
+          <a target="_blank" href={GLPIGBH_rapport} className="buttonSource">
             Rapport
           </a>
         </div>
