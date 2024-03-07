@@ -20,6 +20,16 @@ const About = () => {
             <br /> Actuellement toujours en études je vous presente par le biais de mon portfolio mes experience professionnelles et mes
             différents projets réalisés au cours de mes deux années de BTS SIO option SLAM.
             <br />
+            <br />
+            Pour réaliser ce BTS, j'ai eu la chance de travailler en alternance pour le bailleur social <strong>Grand Bourg Habitat</strong>
+            . Je faisais partie d'une équipe de trois salariés, dont moi-même, au sein du <strong>pôle informatique</strong>. Mon tuteur m'a
+            accompagné de manière excellente tout au long de ces deux années, et c'est grâce à l'équipe que j'ai pu apprendre le métier dans
+            les meilleures conditions. Je les remercie chaleureusement.
+            <br />
+            <br /> À la suite de ce BTS SIO SLAM, j'aimerais m'orienter vers un mastère en développement informatique de niveau BAC+5. J'ai
+            l'intention de réaliser cette poursuite d'études en alternance, car je trouve que ce rythme de formation est très
+            professionnalisant.
+            <br />
             <br /> Mon portfolio est dans un premier temps à destination des différentes épreuves du BTS que je prépare et dans un second
             temps aux entreprises potentielles qui souhaitent découvrir mes compétences et expériences professionnelles.
           </p>
@@ -59,8 +69,8 @@ const About = () => {
             </p>
             <li>Support aux utilisateurs</li>
             <li>Migration vers un nouveaux plan d’adressage IP</li>
-            <li>Création et personnalisation d’un GLPI</li>
-            <li>Participation aux projets du Service Informatique </li>
+            <li>Création d'un GLPI personnalisé avec modifications du code PHP</li>
+            <li>Création d’un logiciel en C# de création d’utilisateurs AD</li>
           </div>
         </div>
         <div>

@@ -45,6 +45,16 @@ const Skills = () => {
           <div className="progressBar progressBar--c-sharp"></div>
           <p>C#: 3/5</p>
         </div>
+        <div className="skill">
+          <div className="logo logo__php"></div>
+          <div className="progressBar progressBar--php"></div>
+          <p>PHP: 3/5</p>
+        </div>
+        <div className="skill">
+          <div className="logo logo__sql"></div>
+          <div className="progressBar progressBar--sql"></div>
+          <p>SQL: 2/5</p>
+        </div>
       </div>
     </div>
   );

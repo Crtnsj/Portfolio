@@ -67,6 +67,14 @@
     width: 100%;
     background-image: url("../src/assets/logo_c-sharp.png");
   }
+  &__php {
+    width: 100%;
+    background-image: url("../src/assets/logo_php.png");
+  }
+  &__sql {
+    width: 100%;
+    background-image: url("../src/assets/logo_sql.png");
+  }
 }
 .progressBar {
   background-color: black;
@@ -105,6 +113,14 @@
   &--c-sharp::after {
     background-color: #70187e;
     width: 60%;
+  }
+  &--php::after {
+    background-color: #777bb3;
+    width: 60%;
+  }
+  &--sql::after {
+    background-color: #00546b;
+    width: 40%;
   }
 
   &::after {

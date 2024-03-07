@@ -59,11 +59,12 @@ const Project__card = (props: Props) => {
     } else if (type === "GLPI-GBH") {
       return (
         <p style={{ color: "#fff" }}>
-          Ce projet à pour but de permettre au pôle informatique de gerer le parc informatique. Ce projet n'est cependant pas un serveur
-          GLPI lambda, j'ai apporté une personnalisation complete du logiciel. <br />
+          Ce projet a pour but de permettre au pôle informatique de gérer le parc informatique. Cependant, ce projet n'est pas simplement un
+          serveur GLPI lambda. J'ai apporté une personnalisation complète du logiciel.
           <br />
-          J'ai "rétro-ingénierer" le programme open-source de GLPI afin d'apporter les fonctionnalité souhaitée et les modifications
-          estetiques nécéssaires
+          <br />
+          J'ai effectué une rétro-ingénierie du programme open-source de GLPI afin d'apporter les fonctionnalités souhaitées et les
+          modifications esthétiques nécessaires.
         </p>
       );
     }
