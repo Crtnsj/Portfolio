@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://crtnsj.github.io/Portfolio/",
+  "homepage": "https://portfolio.sanjuan-01.fr/",
   "scripts": {
     "vite": "vite",
     "sass": "sass --watch ./sass/main.scss:./src/css-compiled.css --style compressed",

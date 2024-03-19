@@ -17,7 +17,7 @@ const About = () => {
             <strong> BTS SIO</strong>, (Services Informatiques aux Organisations) à l'École ISITECH de Lyon, option SLAM (Solutions
             Logicielles et Applications Métier).
             <br />
-            <br /> Actuellement toujours en études je vous presente par le biais de mon portfolio mes experience professionnelles et mes
+            <br /> Actuellement toujours en études je vous présente par le biais de mon portfolio mes expériences professionnelles et mes
             différents projets réalisés au cours de mes deux années de BTS SIO option SLAM.
             <br />
             <br />
@@ -57,7 +57,7 @@ const About = () => {
             <h3>Administrateur systemes et réseaux</h3>
             <p>Grand Bourg Habitat - 01000 Bourg-en-Bresse | Août 2022 - Aujourd’hui</p>
             <p>
-              <strong>Presentation succincte de l'entreprise: </strong>
+              <strong>Présentation succincte de l'entreprise: </strong>
             </p>
             <p>
               Grand Bourg Habitat est un Office Public de l'Habitat qui gère plus de 5600 logements et assure leur entretien pour plus de 11
@@ -79,7 +79,7 @@ const About = () => {
             <h3>Technicien systèmes et réseaux</h3>
             <p>ACG-Synergies - 01000 Bourg-en-Bresse | Janvier 2022 - Mars 2022 | Stage</p>
             <p>
-              <strong>Presentation succincte de l'entreprise: </strong>
+              <strong>Présentation succincte de l'entreprise: </strong>
             </p>
             <p>
               ACG-Synergies est un groupement de bailleurs sociaux qui mutualise les ressources et les compétences pour fournir des
@@ -98,7 +98,7 @@ const About = () => {
             <h3>Technicien systèmes et réseaux</h3>
             <p>Préfecture de l'AIN - 01000 Bourg-en-Bresse | Mai 2021 - Juillet 2021 | Stage</p>
             <p>
-              <strong>Presentation succincte de l'administration: </strong>
+              <strong>Présentation succincte de l'administration: </strong>
             </p>
             <p>
               La préfecture de l'Ain est l'administration représentant l'État français dans le département de l'Ain, basée à
