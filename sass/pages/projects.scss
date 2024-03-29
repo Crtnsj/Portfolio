@@ -83,6 +83,9 @@
       &.Badg-Heure {
         box-shadow: 0 0 20px #aae1ff;
       }
+      &.GStockB {
+        box-shadow: 0 0 20px #d5deef;
+      }
       &.Other {
         box-shadow: 0 0 20px #fff;
       }
@@ -179,6 +182,10 @@
     border: 1px solid black;
     background-color: #cbe0a3;
   }
+  &_GStockB {
+    border: 1px solid black;
+    background-color: #d5deef;
+  }
   &_Other {
     border: 1px solid black;
   }
@@ -237,6 +244,9 @@
   }
   &__GeStionB {
     background-image: url("../src/assets/logo_GeStionB.png");
+  }
+  &__GStockB {
+    background-image: url("../src/assets/logo_GStockB.png");
   }
   &__Other {
     display: none;

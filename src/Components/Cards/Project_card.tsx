@@ -4,6 +4,7 @@ type Props = {
 import Badgheure_rapport from "../../assets/Rapport_SANJUAN_BADG-HEURE.pdf";
 import GLPIGBH_rapport from "../../assets/Rapport_GLPI_GBH_censured.pdf";
 import GeStionB_rapport from "../../assets/Rapport_GeStionB.pdf";
+import GStockB_rapport from "../../assets/Rapport_GStockB.pdf";
 import comingSoon from "../../assets/comingSoon.gif";
 
 const Project__card = (props: Props) => {
@@ -38,6 +39,21 @@ const Project__card = (props: Props) => {
           <br />
           La connexion à GeStionB est sécurisée et les mots de passe des utilisateurs sont cryptés dans la base de données pour garantir la
           protection des informations sensibles.
+        </p>
+      );
+    } else if (type === "GStockB") {
+      return (
+        <p>
+          Ce projet vise à permettre à un laboratoire pharmaceutique GSB de gérer ses stocks de médicaments, matériels ou autres. Ce
+          logiciel comporte une base de données de stocks, de commandes afin pouvoir les entrées ou sortie du stock, il y a également une
+          base d’utilisateur qui est gérée. GStockB a pour objectif d’assurer la quantité toujours possitive d’un stock et permet le
+          controle des entrées et sorties avec la validation d’un “administrateur”.
+          <br />
+          <br />
+          Pour réaliser ces fonctionnalités, le logiciel fournit une interface conviviale et intuitive permettant d'ajouter, modifier et
+          consulter les commandes et les stocks. Un aspect sécurité et la confidentialité des données est mis en avant, en mettant en place
+          des mesures de protection appropriées, telles que l'authentification des utilisateurs et le chiffrement des données sensibles tels
+          que les mots de passe.
         </p>
       );
     } else if (type === "Other") {
@@ -92,6 +108,16 @@ const Project__card = (props: Props) => {
             Code source
           </a>
           <a target="_blank" href={GeStionB_rapport} className="buttonSource">
+            Rapport
+          </a>
+        </div>
+      ) : null}
+      {props.type === "GStockB" ? (
+        <div className="buttonsLayout">
+          <a target="_blank" href="https://github.com/Crtnsj/GStockB" className="buttonSource">
+            Code source
+          </a>
+          <a target="_blank" href={GStockB_rapport} className="buttonSource">
             Rapport
           </a>
         </div>

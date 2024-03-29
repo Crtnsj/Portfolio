@@ -3,15 +3,25 @@
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
-body.no-scroll {
-  overflow: hidden;
-  padding-right: 17px;
-}
-
 
 h2 {
   font-size: large;
   @media (min-width: 375px) {
     font-size: x-large;
+  }
+}
+
+body {
+  &.no-scroll {
+    overflow: hidden;
+    padding-right: 17px;
+  }
+}
+
+html {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
   }
 }

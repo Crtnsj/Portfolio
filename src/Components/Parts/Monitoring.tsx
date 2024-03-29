@@ -8,9 +8,8 @@ const Monitoring = () => {
         <div
           style={{
             position: "relative",
-            width: "90%",
-            height: 0,
-            paddingTop: "56.2500%",
+            width: "100%",
+            height: "80vh",
             paddingBottom: 0,
             boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
             marginTop: "1.6em",
@@ -18,7 +17,7 @@ const Monitoring = () => {
             overflow: "hidden",
             borderRadius: "8px",
             willChange: "transform",
-            left: "5vw",
+            maxHeight: "100vh",
           }}
         >
           <iframe
@@ -33,7 +32,7 @@ const Monitoring = () => {
               padding: 0,
               margin: 0,
             }}
-            src="https://www.canva.com/design/DAFsXLQprLM/view?embed"
+            src="https://www.canva.com/design/DAF9CkhJr_U/KkL_SE8vkL-QbHPX-W5rgQ/view?embed"
             allowFullScreen={true}
             allow="fullscreen"
           ></iframe>

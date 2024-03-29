@@ -44,8 +44,8 @@ const Projects = () => {
           <button className={`card__2 ${handleIndex(2)} Badg-Heure`} onClick={() => handleClickCard(2)}>
             <Project__card type="Badg-Heure" />
           </button>
-          <button className={`card__3 ${handleIndex(3)} Other`} onClick={() => handleClickCard(3)}>
-            <Project__card type="Other" />
+          <button className={`card__3 ${handleIndex(3)} GStockB`} onClick={() => handleClickCard(3)}>
+            <Project__card type="GStockB" />
           </button>
         </div>
         <h2>Projets réalisés en entreprise</h2>
