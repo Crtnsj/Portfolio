@@ -5,6 +5,8 @@ import Badgheure_rapport from "../../assets/Rapport_SANJUAN_BADG-HEURE.pdf";
 import GLPIGBH_rapport from "../../assets/Rapport_GLPI_GBH_censured.pdf";
 import GeStionB_rapport from "../../assets/Rapport_GeStionB.pdf";
 import GStockB_rapport from "../../assets/Rapport_GStockB.pdf";
+import GStockB_fiche from "../../assets/GStockB_fiche.pdf";
+import GeStionB_fiche from "../../assets/GeStionB_fiche.pdf";
 import comingSoon from "../../assets/comingSoon.gif";
 
 const Project__card = (props: Props) => {
@@ -110,6 +112,9 @@ const Project__card = (props: Props) => {
           <a target="_blank" href={GeStionB_rapport} className="buttonSource">
             Rapport
           </a>
+          <a target="_blank" href={GeStionB_fiche} className="buttonSource">
+            Fiche Projet
+          </a>
         </div>
       ) : null}
       {props.type === "GStockB" ? (
@@ -119,6 +124,9 @@ const Project__card = (props: Props) => {
           </a>
           <a target="_blank" href={GStockB_rapport} className="buttonSource">
             Rapport
+          </a>
+          <a target="_blank" href={GStockB_fiche} className="buttonSource">
+            Fiche Projet
           </a>
         </div>
       ) : null}

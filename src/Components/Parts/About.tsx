@@ -44,6 +44,14 @@ const About = () => {
                 Ma fiche de compétence
               </a>
             </button>
+            <button className="cvButton presentationE4">
+              <a
+                href="https://www.canva.com/design/DAGA0Ca4i7s/kHYWW5XMf2SatVNYHnM3RA/view?utm_content=DAGA0Ca4i7s&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+                target="_blank"
+              >
+                Présentation E4
+              </a>
+            </button>
           </div>
         </div>
         <div className="about__pic"></div>
@@ -71,6 +79,7 @@ const About = () => {
             <li>Migration vers un nouveaux plan d’adressage IP</li>
             <li>Création d'un GLPI personnalisé avec modifications du code PHP</li>
             <li>Création d’un logiciel en C# de création d’utilisateurs AD</li>
+            <li>Réalisation de scripts Powershell</li>
           </div>
         </div>
         <div>

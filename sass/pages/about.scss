@@ -59,7 +59,7 @@
   background-color: #fff;
   &__layout {
     display: flex;
-    max-width: 26rem;
+    max-width: 36rem;
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -85,6 +85,9 @@
   }
   &.tableauCompetence a::after {
     content: "Ma fiche de compétence";
+  }
+  &.presentationE4 a::after {
+    content: "Présentation E4";
   }
   &::after {
     content: "";
