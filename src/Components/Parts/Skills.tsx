@@ -55,6 +55,21 @@ const Skills = () => {
           <div className="progressBar progressBar--sql"></div>
           <p>SQL: 2/5</p>
         </div>
+        <div className="skill">
+          <div className="logo logo__python"></div>
+          <div className="progressBar progressBar--python"></div>
+          <p>PYTHON: 2/5</p>
+        </div>
+        <div className="skill">
+          <div className="logo logo__node"></div>
+          <div className="progressBar progressBar--node"></div>
+          <p>NODE JS: 3/5</p>
+        </div>
+        <div className="skill">
+          <div className="logo logo__git"></div>
+          <div className="progressBar progressBar--git"></div>
+          <p>GIT: 2/5</p>
+        </div>
       </div>
     </div>
   );

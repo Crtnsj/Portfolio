@@ -75,6 +75,18 @@
     width: 100%;
     background-image: url("../src/assets/logo_sql.png");
   }
+  &__python {
+    width: 100%;
+    background-image: url("../src/assets/logo_python.png");
+  }
+  &__node {
+    width: 100%;
+    background-image: url("../src/assets/logo_node.png");
+  }
+  &__git {
+    width: 100%;
+    background-image: url("../src/assets/logo_git.png");
+  }
 }
 .progressBar {
   background-color: black;
@@ -120,6 +132,18 @@
   }
   &--sql::after {
     background-color: #00546b;
+    width: 40%;
+  }
+  &--python::after {
+    background-color: #ffd849;
+    width: 40%;
+  }
+  &--node::after {
+    background-color: #64b749;
+    width: 60%;
+  }
+  &--git::after {
+    background-color: #f05133;
     width: 40%;
   }
 
