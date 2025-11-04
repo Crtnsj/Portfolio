@@ -13,7 +13,7 @@ const About = () => {
             Bonjour, je m'appelle <strong>Corentin San Juan</strong>,
             <br />
             <br />
-            Je suis étudiant en deuxieme année de
+            Je suis étudiant en quatrieme année de
             <strong> BTS SIO</strong>, (Services Informatiques aux Organisations) à l'École ISITECH de Lyon, option SLAM (Solutions
             Logicielles et Applications Métier).
             <br />
@@ -60,10 +60,43 @@ const About = () => {
       <div className="experiencePro">
         <h2>Mes expériences professionnelles</h2>
         <div>
+          <div className="logo_exp logo_sgmn"></div>
+          <div className="content_exp">
+            <h3>Data Engineer / AI Integrator</h3>
+            <p>SGMN E-Trade - 71210 Ecuisses | Septembre 2024 - Aujourd’hui</p>
+            <p>
+              <strong>Présentation succincte de l'entreprise: </strong>
+            </p>
+            <p>
+              SGMN E-Trade est une entreprise ayant plusieurs domaine d'activités. Le principal est la création, la gestion de sites et
+              boutiques internet. En second, l'achat revente de produits divers. En relation avec les deux premieres nous faisons de la
+              logistique avec plus de 200 colis expediés par jours. Et enfin nous proposons aussi une intégration sur les marketplaces
+              (Amazon, Cdiscount, Ebay...)
+            </p>
+            <p>
+              <strong>Tâche principal réalisées au seins de l'entreprise: </strong>
+            </p>
+            <p>
+              <strong>Développement d'un ETL adapté aux besoin de l'entreprise avec, entre autres, ces fonctionnalités:</strong>
+            </p>
+            <li>Mises à jour des prix publiques/fournisseurs</li>
+            <li>Scrapings</li>
+            <li>Automatisation de la création d'articles sur nos boutiques</li>
+            <li>Intégration de l'IA dans les différents processus</li>
+            <br />
+            <p>
+              <strong>Autres taches :</strong>
+            </p>
+            <li>Manipulation de données avec python</li>
+            <li>Création de sites/boutiques internet</li>
+          </div>
+        </div>
+        <hr />
+        <div>
           <div className="logo_exp logo_gbh"></div>
           <div className="content_exp">
             <h3>Administrateur systemes et réseaux</h3>
-            <p>Grand Bourg Habitat - 01000 Bourg-en-Bresse | Août 2022 - Aujourd’hui</p>
+            <p>Grand Bourg Habitat - 01000 Bourg-en-Bresse | Août 2022/2024</p>
             <p>
               <strong>Présentation succincte de l'entreprise: </strong>
             </p>

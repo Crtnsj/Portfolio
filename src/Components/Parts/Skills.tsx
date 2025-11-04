@@ -1,74 +1,40 @@
 import Timeline from "../Timeline";
+import SkillCard from "../Cards/Skill_card";
 
 const Skills = () => {
+  const dataIASkills = [
+    { skillName: "PYTHON", rating: 4, logoName: "python", color: "#ffd849" },
+    { skillName: "GIT", rating: 3, logoName: "git", color: "#f05133" },
+    { skillName: "Polars", rating: 3, logoName: "polars", color: "#2278FA" },
+    { skillName: "Selenium", rating: 4, logoName: "selenium", color: "#00B500" },
+    { skillName: "Streamlit", rating: 3, logoName: "streamlit", color: "#FE4C4B" },
+    { skillName: "Scikit Learn", rating: 2, logoName: "scikit_learn", color: "#F89A39" },
+    { skillName: "SQL", rating: 3, logoName: "sql", color: "#00546b" },
+  ];
+
+  const webSkills = [
+    { skillName: "React", rating: 3, logoName: "react", color: "#00dcff" },
+    { skillName: "CSS", rating: 4, logoName: "css", color: "#0277bd" },
+    { skillName: "JavaScript", rating: 2, logoName: "javascript", color: "#dcb900" },
+    { skillName: "PHP", rating: 3, logoName: "php", color: "#777bb3" },
+  ];
+
   return (
     <div className=" parts__layout" id="skillPart">
       <Timeline number={2} />
-      <div className="rating">
-        <div className="skill">
-          <div className="logo logo__react"></div>
-          <div className="progressBar progressBar--react"></div>
-          <p>React: 2/5</p>
+      <div>
+        <h2>Data/IA :</h2>
+        <div className="rating">
+          {dataIASkills.map((skill) => (
+            <SkillCard key={skill.skillName} {...skill} />
+          ))}
         </div>
-        <div className="skill">
-          <div className="logo logo__html"></div>
-          <div className="progressBar progressBar--html"></div>
-          <p>HTML: 4/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__css"></div>
-          <div className="progressBar progressBar--css"></div>
-          <p>CSS: 3/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__scss"></div>
-          <div className="progressBar progressBar--scss"></div>
-          <p>SASS: 3/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__javascript"></div>
-          <div className="progressBar progressBar--javascript"></div>
-          <p>JavaScript: 2/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__java"></div>
-          <div className="progressBar progressBar--java"></div>
-          <p>Java: 1/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__powershell"></div>
-          <div className="progressBar progressBar--powershell"></div>
-          <p>Powershell: 2/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__c-sharp"></div>
-          <div className="progressBar progressBar--c-sharp"></div>
-          <p>C#: 3/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__php"></div>
-          <div className="progressBar progressBar--php"></div>
-          <p>PHP: 3/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__sql"></div>
-          <div className="progressBar progressBar--sql"></div>
-          <p>SQL: 2/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__python"></div>
-          <div className="progressBar progressBar--python"></div>
-          <p>PYTHON: 2/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__node"></div>
-          <div className="progressBar progressBar--node"></div>
-          <p>NODE JS: 3/5</p>
-        </div>
-        <div className="skill">
-          <div className="logo logo__git"></div>
-          <div className="progressBar progressBar--git"></div>
-          <p>GIT: 2/5</p>
+        <br />
+        <h2>Web :</h2>
+        <div className="rating">
+          {webSkills.map((skill) => (
+            <SkillCard key={skill.skillName} {...skill} />
+          ))}
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
 .skill {
   display: flex;
   flex-direction: column;
@@ -23,6 +24,7 @@
   aspect-ratio: 1/1;
   gap: 0.25rem;
 }
+
 .logo {
   display: flex;
   min-width: 5rem;
@@ -34,123 +36,22 @@
   align-items: center;
   font-size: 12vw;
   font-weight: 600;
-
-  &__react {
-    width: 100%;
-    background-image: url("../src/assets/logo_react.png");
-  }
-  &__html {
-    width: 100%;
-    background-image: url("../src/assets/logo_html.png");
-  }
-  &__css {
-    width: 100%;
-    background-image: url("../src/assets/logo_css.png");
-  }
-  &__scss {
-    width: 100%;
-    background-image: url("../src/assets/logo_scss.png");
-  }
-  &__javascript {
-    width: 100%;
-    background-image: url("../src/assets/logo_javascript.png");
-  }
-  &__java {
-    width: 100%;
-    background-image: url("../src/assets/logo_java.png");
-  }
-  &__powershell {
-    width: 100%;
-    background-image: url("../src/assets/logo_powershell.png");
-  }
-  &__c-sharp {
-    width: 100%;
-    background-image: url("../src/assets/logo_c-sharp.png");
-  }
-  &__php {
-    width: 100%;
-    background-image: url("../src/assets/logo_php.png");
-  }
-  &__sql {
-    width: 100%;
-    background-image: url("../src/assets/logo_sql.png");
-  }
-  &__python {
-    width: 100%;
-    background-image: url("../src/assets/logo_python.png");
-  }
-  &__node {
-    width: 100%;
-    background-image: url("../src/assets/logo_node.png");
-  }
-  &__git {
-    width: 100%;
-    background-image: url("../src/assets/logo_git.png");
-  }
+  width: 100%;
 }
+
 .progressBar {
   background-color: black;
   width: 80%;
   height: 1rem;
   padding: 2px;
   border-radius: 999px;
-  &--react::after {
-    background-color: #00dcff;
-    width: 40%;
-  }
-  &--html::after {
-    background-color: #f73e00;
-    width: 80%;
-  }
-  &--css::after {
-    background-color: #0277bd;
-    width: 60%;
-  }
-  &--scss::after {
-    background-color: #db5d9c;
-    width: 60%;
-  }
-  &--javascript::after {
-    background-color: #dcb900;
-    width: 40%;
-  }
-  &--java::after {
-    background-color: #ef4431;
-    width: 20%;
-  }
-  &--powershell::after {
-    background-color: #027fcf;
-    width: 40%;
-  }
-  &--c-sharp::after {
-    background-color: #70187e;
-    width: 60%;
-  }
-  &--php::after {
-    background-color: #777bb3;
-    width: 60%;
-  }
-  &--sql::after {
-    background-color: #00546b;
-    width: 40%;
-  }
-  &--python::after {
-    background-color: #ffd849;
-    width: 40%;
-  }
-  &--node::after {
-    background-color: #64b749;
-    width: 60%;
-  }
-  &--git::after {
-    background-color: #f05133;
-    width: 40%;
-  }
 
   &::after {
     content: "";
     display: block;
     height: 100%;
     border-radius: 999px;
+    background-color: var(--bar-color);
+    width: var(--bar-width);
   }
 }

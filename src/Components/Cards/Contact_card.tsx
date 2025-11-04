@@ -11,7 +11,7 @@ type Props = {
 const ContactCard = (props: Props) => {
   const handleContent = (type: string) => {
     if (type === "phone") {
-      return "+33 6 84 56 01 82";
+      return "+33 6 03 80 64 55";
     } else if (type === "github") {
       return "Crtnsj";
     } else if (type === "email") {
